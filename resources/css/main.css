@@ -5772,6 +5772,9 @@ button.close {
     display: none !important;
   }
 }
+html {
+  overflow: hidden;
+}
 .slide {
   background: #a7cfdf;
   /* Old browsers */
@@ -5803,4 +5806,49 @@ button.close {
 .nav-button:hover {
   color: #999999;
   background-color: rgba(0, 0, 0, 0.5);
+}
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 5em;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.subtitle {
+  color: white;
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.well h1 {
+  border-bottom: #999999 solid thin;
+}
+.well p {
+  font-size: 1.3em;
+}
+#slide1 img {
+  margin-top: 40px;
+  border: #d9534f solid 5px;
+}
+#slide1 .key-notify {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  font-size: 20px;
+}
+#slide2 .title {
+  margin-bottom: 50px;
+}
+#slide2 .graphic {
+  font-size: 400px;
+}
+#slide3 .title {
+  font-size: 250px;
+}
+#slide6 .title {
+  font-size: 250px;
 }

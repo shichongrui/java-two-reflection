@@ -13,11 +13,15 @@ gulp.task('default', ['less', 'minifycss', 'combinejs', 'minifyjs'], function ()
 
 
 gulp.task('less', function () {
+    try {
     return gulp.src('./resources/less/main.less')
         .pipe(less())
         .pipe(rename('main.css'))
         .pipe(gulp.dest('./resources/css/'))
         .pipe(notify('LESS compiled Successfully'));
+    } catch(e) {
+        
+    }
 });
 
 gulp.task('minifycss', ['less'], function () {

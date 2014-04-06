@@ -1,3 +1,6 @@
+html {
+    overflow: hidden;
+}
 .slide {
     background: #a7cfdf;
     /* Old browsers */
@@ -13,10 +16,8 @@
     /* IE10+ */
     background: linear-gradient(to bottom, #a7cfdf 0%, #23538a 100%);
     /* W3C */
-    
     position: relative;
 }
-
 .nav-button {
     position: absolute;
     bottom: 0;
@@ -24,12 +25,22 @@
     text-align: center;
     padding: 10px;
     font-size: 30px;
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0, 0, 0, .6);
     cursor: pointer;
     color: white;
-    
     &:hover {
         color: @gray-light;
-        background-color: rgba(0,0,0,.5);
+        background-color: rgba(0, 0, 0, .5);
     }
+}
+.title {
+    color: white;
+    font-weight: bold;
+    font-size: 5em;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.subtitle {
+    color: white;
+    text-align: center;
 }
