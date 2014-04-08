@@ -52,3 +52,21 @@ background-color: rgba(0, 0, 0, .5);
 .graphic {
     font-size: 400px;
 }
+.well {
+    h1 {
+        border-bottom: @gray-light solid thin;
+    }
+    @media (max-width: @screen-md-max) {
+        h1 {
+            font-size: 1.3em;
+        }
+        p {
+            font-size: .9em;
+        }
+    }
+}
+@media (max-width: @screen-md-max)  {
+    .graphic {
+       font-size: 200px;
+    }
+}

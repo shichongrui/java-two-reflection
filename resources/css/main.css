@@ -5825,13 +5825,26 @@ html {
 .graphic {
   font-size: 400px;
 }
+.well h1 {
+  border-bottom: #999999 solid thin;
+}
+@media (max-width: 1199px) {
+  .well h1 {
+    font-size: 1.3em;
+  }
+  .well p {
+    font-size: .9em;
+  }
+}
+@media (max-width: 1199px) {
+  .graphic {
+    font-size: 200px;
+  }
+}
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-.well h1 {
-  border-bottom: #999999 solid thin;
 }
 #slide1 img {
   margin-top: 40px;
@@ -5848,6 +5861,11 @@ html {
   top: 300px;
   -webkit-animation: first-slide-plane 3s linear infinite;
   animation: first-slide-plane 3s linear infinite;
+}
+@media (max-width: 1199px) {
+  #slide2.active .glyphicon-plane {
+    font-size: 200px;
+  }
 }
 #slide4.active .icon-code {
   position: absolute;

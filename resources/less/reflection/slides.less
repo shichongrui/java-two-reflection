@@ -1,8 +1,3 @@
-.well {
-    h1 {
-        border-bottom: @gray-light solid thin;
-    }
-}
 #slide1 {
     img {
         margin-top: 40px;
@@ -23,6 +18,11 @@
             -webkit-animation: first-slide-plane 3s linear infinite;
             animation: first-slide-plane 3s linear infinite;
         }
+    }
+}
+@media (max-width: @screen-md-max) {
+    #slide2.active .glyphicon-plane {
+        font-size: 200px;
     }
 }
 #slide4 {
