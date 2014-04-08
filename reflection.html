@@ -9,98 +9,155 @@
 </head>
 
 <body>
-    <div class='container-fluid'>
-        <div class='slide row' id='slide1'>
-            <div class='slide-content col-xs-12'>
-                <div class='row'>
-                    <h1 class='title col-xs-12'>Java 2 Journal Reflection</h1>
-                    <h2 class='subtitle col-xs-12'>Matthew Sessions</h2>
-                    <div class='col-xs-12'>
-                        <img class='center img-circle img-responsive' src='resources/images/IMG_0566.JPG.jpg' alt='A Picture of Me' />
+    <div class="carousel slide" id="carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="3"></li>
+            <li data-target="#carousel" data-slide-to="4"></li>
+            <li data-target="#carousel" data-slide-to="5"></li>
+            <li data-target="#carousel" data-slide-to="6"></li>
+            <li data-target="#carousel" data-slide-to="7"></li>
+            <li data-target="#carousel" data-slide-to="8"></li>
+            <li data-target="#carousel" data-slide-to="9"></li>
+            <li data-target="#carousel" data-slide-to="10"></li>
+            <li data-target="#carousel" data-slide-to="11"></li>
+        </ol>
+        <div class='container-fluid carousel-inner'>
+            <div class='slide row item active' id='slide1'>
+                <div class='slide-content col-xs-12'>
+                    <div class='row'>
+                        <h1 class='title col-xs-12'>Java 2 Journal Reflection</h1>
+                        <h2 class='subtitle col-xs-12'>Matthew Sessions</h2>
+                        <div class='col-xs-12'>
+                            <img class='center img-circle img-responsive' src='resources/images/IMG_0566.JPG.jpg' alt='A Picture of Me' />
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class='key-notify hidden-xs'>
-                <i class='glyphicon glyphicon-arrow-up'></i>
-                <i class='glyphicon glyphicon-arrow-down'></i>keys</div>
-
-            <div class='nav-button visible-xs'>
-                <i class='glyphicon glyphicon-chevron-down'></i>
+            <div class='slide row item' id='slide2'>
+                <div class='slide-content col-xs-12'>
+                    <div class='row'>
+                        <h1 class='title col-xs-12'>What is this?</h1>
+                        <div class='col-xs-3 col-xs-offset-1 graphic'>
+                            <i class='glyphicon glyphicon-road'></i>
+                        </div>
+                        <div class='col-xs-6 col-xs-offset-1 well'>
+                            <h1>My Journey</h1>
+                            <p>As many have expressed, this class has caused me to reconsider the way that I approach my learning. With the freedom we are given to learn at our own pace, comes the responsibility to do so.</p>
+                            <p>In this presentation I will try to address the many ways I have changed as a result of this journey. The bulk of my insights in this presentation come from weekly reflection of my experiences in and outside of class.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class='slide row' id='slide2'>
-            <div class='slide-content col-xs-12'>
-                <div class='row'>
-                    <h1 class='title col-xs-12'>What is this?</h1>
+            <div class='slide row item' id='slide3'>
+                <div class='slide-content col-xs-12'>
+                    <h1 class='title'>Team Work</h1>
+                </div>
+            </div>
+            <div class='slide row item' id='slide4'>
+                <div class='slide-content col-xs-12'>
+                    <h1 class='title'>GitHub Class Repository</h1>
                     <div class='col-xs-3 col-xs-offset-1 graphic'>
-                        <i class='glyphicon glyphicon-road'></i>
+                        <i class='icon-github'></i>
                     </div>
                     <div class='col-xs-6 col-xs-offset-1 well'>
-                        <h1>My Journey</h1>
-                        <p>As many have expressed, this class has caused me to reconsider the way that I approach my learning.  With the freedom we are given to learn at our own pace, comes the responsibility to do so.</p>
-                        <p>In this presentation I will try to address the many ways I have changed as a result of this journey.  The bulk of my insights in this presentation come from weekly reflection of my experiences in and outside of class.</p>
+                        <h1>Classroom Collaboration</h1>
+                        <p>At the beginning of the semester we had a classroom discussion where one of the TA's brought up the fact that we should be collaborating as a class. He suggested that we use the presentations to not only show what we had learned but to teach the other teams inthe class.</p>
+                        <p>The first technology my team decided to learn was GIT. I had been thinking about the purpose of the class and while driving home one day I sat pondering how I could better help my team to understand some of these concepts. I had a thought that although didn't answer my question directly, it would benefit the whole class. The idea was to make a repository for the whole class to use to share code examples. This way we could all share code with one another and hopefully benefit form the experience.</p>
+                        <p>Looking back on this experience, I regret that it didn't catch on as much as I thought it would. There were those who thought it was a good idea but it never did see any practical use. If I could go back with my current knowledge of GIT I would have created an organization for the class and asked for all who had GitHub accounts to give me their usernames to add them as collaborators to the organization so that they could create their own repositories in the organization.</p>
                     </div>
                 </div>
             </div>
-            <div class='nav-button visible-xs'>
-                <i class='glyphicon glyphicon-chevron-down'></i>
-            </div>
-        </div>
-        <div class='slide row' id='slide3'>
-            <div class='slide-content col-xs-12'>
-                <h1 class='title'>Team Work</h1>
-            </div>
-            <div class='nav-button visible-xs'>
-                <i class='glyphicon glyphicon-chevron-down'></i>
-            </div>
-        </div>
-        <div class='slide row' id='slide4'>
-            <div class='slide-content col-xs-12'>
-                <h1 class='title'>GitHub Class Repository</h1>
-                <div class='col-xs-6 col-xs-offset-1 well'>
-                    <h1>Classroom Collaboration</h1>
-                    <p>At the beginning of the semester we had a classroom discussion where one of the TA's brought up the fact that we should be collaborating as a class. He suggested that we use the presentations to not only show what we had learned but to teach the other teams inthe class.</p>
-                    <p>The first technology my team decided to learn was GIT. I had been thinking about the purpose of the class and while driving home one day I sat pondering how I could better help my team to understand some of these concepts. I had a thought that although didn't answer my question directly, it would benefit the whole class.  The idea was to make a repository for the whole class to use to share code examples.  This way we could all share code with one another and hopefully benefit form the experience.</p>
-                    <p>Looking back on this experience, I regret that it didn't catch on as much as I thought it would.  There were those who thought it was a good idea but it never did see any practical use. If I could go back with my current knowledge of GIT I would have created an organization for the class and asked for all who had GitHub accounts to give me their usernames to add them as collaborators to the organization so that they could create their own repositories in the organization.</p>
+            <div class='slide row item' id='slide5'>
+                <div class='slide-content col-xs-12'>
+                    <h1 class="title">Working with my Group</h1>
+                    <div class='col-xs-3 col-xs-offset-1 graphic'>
+                        <i class='glyphicon glyphicon-user'></i>
+                        <i class='icon-group'></i>
+                        <i class='icon-hammer'></i>
+                    </div>
+                    <div class='col-xs-6 col-xs-offset-1 well'>
+                        <h1>Alone vs. Group</h1>
+                        <p>I enjoy working by myself. Being able to set my own deadlines and not having to rely on others to do work appeals to me. On the contrary working alone, I am limited to my own vision and abilities. So when trying to produce something that requires skills in areas I do not possess, I often am not able to produce the best experience.</p>
+                        <p>My experience of working with my group in this class has led me to several conclusions about myself. First being that I have a hard time working with people that I expect to understand more than they do. I find that when I have to explain things to people that I expect to already understand, I become a bit annoyed. I realized this about halfway through the semester and decided that I needed to be more understanding. I feel as though through the end of the semester I was able to do much better.</p>
+                        <p>The second thing I learned was how easy it is to work in a group when everyone puts in the necessary effort. There was a week where everyone in my group had spent time outside of class learning and trying to understand the technologies. It made working togethor extremely easy because we were all on the same page. I worked well in this kind of situation and wished that it could have been that way every week. In the workplace I will be working with many people of differing levels</p>
+                    </div>
                 </div>
             </div>
-            <div class='nav-button visible-xs'>
-                <i class='glyphicon glyphicon-chevron-down'></i>
-            </div>
-        </div>
-        <div class='slide row' id='slide5'>
-            <div class='slide-content col-xs-12'>
-                <h1 class="title">Working with my Group</h1>
-                <div class='col-xs-6 col-xs-offset-1 well'>
-                    <h1>Alone vs. Group</h1>
-                    <p>I enjoy working by myself. Being able to set my own deadlines and not having to rely on others to do work appeals to me. On the contrary working alone, I am limited to my own vision and abilities.  So when trying to produce something that requires skills in areas I do not possess, I often am not able to produce the best experience.</p>
-                    <p>My experience of working with my group in this class has led me to several conclusions about myself.  First being that I have a hard time working with people that I expect to understand more than they do. I find that when I have to explain things to people that I expect to already understand, I become a bit annoyed. I realized this about halfway through the semester and decided that I needed to be more understanding.  I feel as though through the end of the semester I was able to do much better.</p>
-                    <p>The second thing I learned was how easy it is to work in a group when everyone puts in the necessary effort. There was a week where everyone in my group had spent time outside of class learning and trying to understand the technologies.  It made working togethor extremely easy because we were all on the same page. I worked well in this kind of situation and wished that it could have been that way every week. In the workplace I will be working with many people of differing levels</p>
+            <div class='slide row item' id='slide6'>
+                <div class='slide-content col-xs-12'>
+                    <h1 class="title">This Class</h1>
                 </div>
             </div>
-            <div class='nav-button visible-xs'>
-                <i class='glyphicon glyphicon-chevron-down'></i>
-            </div>
-        </div>
-        <div class='slide row' id='slide6'>
-            <div class='slide-content col-xs-12'>
-                <h1 class="title">This Class</h1>
-            </div>
-            <div class='nav-button visible-xs'>
-                <i class='glyphicon glyphicon-chevron-down'></i>
-            </div>
-        </div>
-        <div class='slide row' id='slide7'>
-            <div class='slide-content col-xs-12'>
-                <h1 class="title">Class Structure</h1>
-                <div class='col-xs-6 col-md-offset-1 well'>
-                
+            <div class='slide row item' id='slide7'>
+                <div class='slide-content col-xs-12'>
+                    <h1 class="title">Class Structure</h1>
+                    <div class='col-xs-3 col-xs-offset-1 graphic'>
+                        <i class='icon-lab'></i>
+                    </div>
+                    <div class='col-xs-6 col-md-offset-1 well'>
+                        <h1>What I learned</h1>
+                        <p>It was an interesting learning process for me as I realized the freedom that I had in this class. Most of my tech skills have been aquired on my own time studying and trying the different technologies. I have been able to learn a lot from this approach that has helped me stay ahead. In classes though I was forced to learn things the way that the professor wanted it to be done. I have thought about these two different styles of learning and have realized that I retained the information I had learned on my own much better than what I had learned in my classes.</p>
+                        <p>This class gave me the freedom to learn in the best way I know possible. I have realized that this way is on my own and experimenting with the subject matter. I found that I had the ability to structure the material and the class to suit this learning methodology. As a result of the realization of the way I learn best, I can take this knowledge to other classes and try to learn the best I can there as well.</p>
+                    </div>
                 </div>
             </div>
-            <div class='nav-button visible-xs'>
-                <i class='glyphicon glyphicon-chevron-down'></i>
+            <div class='slide row item' id='slide8'>
+                <div class='slide-content col-xs-12'>
+                    <h1 class="title">Class Structure</h1>
+                    <div class='col-xs-3 col-xs-offset-1 graphic'>
+                        <i class='icon-lamp'></i>
+                        <i class='icon-comments'></i>
+                    </div>
+                    <div class='col-xs-6 col-md-offset-1 well'>
+                        <h1>The epiphany</h1>
+                        <p>The day that we discussed in class about whether there were any suggestions on the structure of the course I had an epiphany about this class. I kept hearing people talk about how they feel as though they did poorly in the class or that they failed at one aspect or another. After hearing this I was thinking about the course and I realized that for the most part this was everyones first time being exposed to a class like this. Thus I saw the class as more of a trial run to show us what is possible in learning when we take responsibility for our own learning.</p>
+                        <p>At this point I felt kind of bad for everyone who felt as though they were failing in the class. I tried to share my insight with the class in the meeting but I'm not sure if it was received the way I had hoped it could help everyone. I realized in this class that one of the reasons you may ask us to really dig deep in meta-cognition and self-reflection was because you cared more that we benefited from the class and learned what's possible rather than if we obtained an in depth knowledge of the class.</p>
+                    </div>
+                </div>
+            </div>
+            <div class='slide row item' id='slide9'>
+                <div class='slide-content col-xs-12'>
+                    <h1 class="title">Myself</h1>
+                </div>
+            </div>
+            <div class='slide row item' id='slide10'>
+                <div class='slide-content col-xs-12'>
+                    <h1 class="title">How else do I learn?</h1>
+                    <div class='col-xs-3 col-xs-offset-1 graphic'>
+                        <i class='glyphicon glyphicon-calendar'></i>
+                        <i class='icon-brain'></i>
+                    </div>
+                    <div class='col-xs-6 col-md-offset-1 well'>
+                        <h1>Patterns</h1>
+                        <p>At the beginning of the semester my group decided that since there were no deadlines of when we needed to understand things, that we would set some deadlines for ourselves. It worked well through the beginning but as we started to explore more difficult topics, my group members realized that they didn't understand enough of the fundamentals. At this point we took some time out to relearn some of the basics before moving on. We thought that the initial plan would work well but in the end we hardly followed it at all.</p>
+                        <p>Instead the pattern that I followed was when I needed to solve a problem I would read and learn about all of the technologies that were required in order to solve the problem. For example when we wanted to learn how to save data in the database we read about hibernate, collections, and Javabeans. I found that this pattern of learning for me was much more effective. Rather than just learning something with no vision of what it is used for or capable of doing, I could have a somewhat rudimentary vision in the beginning and approach the material with the mindset of how it can solve the problem.</p>
+                    </div>
+                </div>
+            </div>
+            <div class='slide row item' id='slide11'>
+                <div class='slide-content col-xs-12'>
+                    <h1 class="title">Learn in class?</h1>
+                    <div class='col-xs-3 col-xs-offset-1 graphic'>
+                        <i class='glyphicon glyphicon-book'></i>
+                        <i class='icon-network'></i>
+                    </div>
+                    <div class='col-xs-6 col-md-offset-1 well'>
+                        <h1>Learn out of class</h1>
+                        <p>I realized pretty early on that class time should not be the only time that we pick up the material and try it out. There were times where my whole group would do that and instead of working together and helping solve each others problems, we were too busy with our noses shoved in the book. I wish I had learned it sooner but I didn't and it wasn't until the last month of class that I was sandboxing outside of class and then coming in to class looking for help.</p>
+                        <p>The last month of class I was trying to get Sockets and updating the UI working. I kept running into different bugs and eventually found a solution online. I got it all working with AsynTask but there were still some bugs. So I came into class and asked you what I was doing wrong and what's the correct way to do it. You laid it out for me and then I was able to go home and refactor my code and eventually got it working the correct way.</p>
+                    </div>
+                </div>
             </div>
         </div>
+        <a class="left carousel-control" href="#carousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
     </div>
     <script src='resources/javascript/main.js'></script>
 </body>
