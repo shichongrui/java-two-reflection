@@ -8,20 +8,95 @@
         margin-top: 40px;
         border: @brand-danger solid 5px;
     }
-    .key-notify {
-        position: absolute;
-        bottom: 10px;
-        right: 10px;
-        color: white;
-        font-size: 20px;
-    }
 }
 #slide2 {
     .title {
         margin-bottom: 50px;
     }
+    &.active {
+        .glyphicon-plane {
+            font-size: 300px;
+            position: absolute;
+            color: white;
+            left: 50px;
+            top: 300px;
+            -webkit-animation: first-slide-plane 3s linear infinite;
+            animation: first-slide-plane 3s linear infinite;
+        }
+    }
 }
-#slide3, #slide6, #slide9{
+#slide4 {
+    &.active {
+        .icon-code {
+            position: absolute;
+            color: white;
+            -webkit-animation: second-slide-code 10s linear infinite;
+            animation: second-slide-code 10s linear infinite;
+            font-size: .5em;
+        }
+    }
+}
+#slide5 {
+    &.active {
+        .icon-group {
+            position: relative;
+            -webkit-animation: third-slide-group 5s linear infinite;
+            animation: third-slide-group 5s linear infinite;
+            top: 0;
+        }
+        .icon-hammer {
+            position: relative;
+            top: 0;
+            display: block;
+            -webkit-animation: third-slide-hammer 5s linear infinite;
+            animation: third-slide-hammer 5s linear infinite;
+        }
+    }
+}
+#slide7 {
+    &.active {
+        .icon-lab {
+            position: relative;
+            display: block;
+            -webkit-animation: fourth-slide-lab 1s linear infinite;
+            animation: fourth-slide-lab 1s linear infinite;
+        }
+    }
+}
+#slide8 {
+    &.active {
+        .icon-lamp {
+            position: relative;
+            display: block;
+            color: black;
+            -webkit-animation: fifth-slide-lamp 3s linear infinite;
+            animation: fifth-slide-lamp 3s linear infinite;
+        }
+    }
+}
+#slide10 {
+    &.active {
+        .glyphicon-eye-open {
+            position: relative;
+            display: block;
+            -webkit-animation: sixth-slide-eye 5s linear infinite;
+            animation: sixth-slide-eye 5s linear infinite;
+        }
+    }
+}
+#slide11 {
+    &.active {
+        .icon-network {
+            position: relative;
+            display: block;
+            -webkit-animation: seventh-slide-network 10s linear infinite;
+            animation: seventh-slide-network 10s linear infinite;
+        }
+    }
+}
+#slide3,
+#slide6,
+#slide9 {
     .title {
         font-size: 250px;
     }

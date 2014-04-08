@@ -20,8 +20,8 @@
 				"name": "github2",
 				"ligatures": ""
 			},
-			"setIdx": 17,
-			"iconIdx": 238
+			"setIdx": 0,
+			"iconIdx": 0
 		},
 		{
 			"icon": {
@@ -43,8 +43,8 @@
 				"name": "github",
 				"ligatures": ""
 			},
-			"setIdx": 12,
-			"iconIdx": 146
+			"setIdx": 0,
+			"iconIdx": 1
 		},
 		{
 			"icon": {
@@ -70,8 +70,8 @@
 				"name": "group",
 				"ligatures": ""
 			},
-			"setIdx": 12,
-			"iconIdx": 168
+			"setIdx": 0,
+			"iconIdx": 2
 		},
 		{
 			"icon": {
@@ -97,8 +97,8 @@
 				"name": "hammer",
 				"ligatures": ""
 			},
-			"setIdx": 14,
-			"iconIdx": 145
+			"setIdx": 0,
+			"iconIdx": 3
 		},
 		{
 			"icon": {
@@ -118,8 +118,8 @@
 				"name": "brain",
 				"ligatures": ""
 			},
-			"setIdx": 6,
-			"iconIdx": 1203
+			"setIdx": 0,
+			"iconIdx": 4
 		},
 		{
 			"icon": {
@@ -141,8 +141,8 @@
 				"name": "lab",
 				"ligatures": ""
 			},
-			"setIdx": 9,
-			"iconIdx": 126
+			"setIdx": 0,
+			"iconIdx": 5
 		},
 		{
 			"icon": {
@@ -163,8 +163,8 @@
 				"name": "lamp",
 				"ligatures": ""
 			},
-			"setIdx": 9,
-			"iconIdx": 187
+			"setIdx": 0,
+			"iconIdx": 6
 		},
 		{
 			"icon": {
@@ -188,8 +188,8 @@
 				"name": "comments",
 				"ligatures": ""
 			},
-			"setIdx": 9,
-			"iconIdx": 221
+			"setIdx": 0,
+			"iconIdx": 7
 		},
 		{
 			"icon": {
@@ -212,8 +212,8 @@
 				"name": "eye",
 				"ligatures": ""
 			},
-			"setIdx": 14,
-			"iconIdx": 198
+			"setIdx": 0,
+			"iconIdx": 8
 		},
 		{
 			"icon": {
@@ -236,8 +236,31 @@
 				"name": "network",
 				"ligatures": ""
 			},
-			"setIdx": 1,
-			"iconIdx": 92
+			"setIdx": 0,
+			"iconIdx": 9
+		},
+		{
+			"icon": {
+				"paths": [
+					"M389.734 218.010c-18.79-17.664-44.186-17.664-63.028 0l-326.706 293.99 326.708 293.94c18.842 17.716 44.236 17.716 63.028 0s18.79-46.388 0-64.102l-253.646-229.838 253.696-229.786c18.738-17.714 18.738-46.438-0.052-64.204zM697.292 218.010c-18.842-17.664-44.186-17.664-63.028 0-18.79 17.766-17.818 46.438 1.076 64.154l252.57 229.836-252.62 229.836c-18.842 17.716-19.866 46.388-1.076 64.102 18.842 17.716 44.186 17.716 63.028 0l326.758-293.938-326.708-293.99z"
+				],
+				"tags": [
+					"code",
+					"embed"
+				],
+				"defaultCode": 57438,
+				"grid": 0
+			},
+			"properties": {
+				"order": 11,
+				"id": 168,
+				"prevSize": 32,
+				"code": 58978,
+				"name": "code",
+				"ligatures": ""
+			},
+			"setIdx": 3,
+			"iconIdx": 86
 		}
 	],
 	"height": 1024,
